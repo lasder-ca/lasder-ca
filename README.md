@@ -7,7 +7,7 @@
 lattee.jp を中心に、Webなどの開発に取り組んでいます。  
 BugHunter としても最近では Bughunt にて実績を残したこともあります。
 
-最近は db やバックエンドのことに取り組んでいます。
+最近は db やバックエンドに取り組んでいます。
 
 **Small steps. Real progress.**  
 をテーマに頑張っています。
