@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/lasder-ca-banner.svg" width="100%" alt="lasder-ca banner" />
+  <img src="/lasder-ca-banner.svg" width="100%" alt="lasder-ca banner" />
 </p>
 
 # latte / lasder-ca
@@ -28,7 +28,7 @@ ui experiments   静かで、温かく、実用的なUI
 - 使っていて落ち着く小さなツール作り
 
 <p align="center">
-  <img src="./assets/lattee-divider.svg" width="100%" alt="learning by making" />
+  <img src="/lattee-divider.svg" width="100%" alt="learning by making" />
 </p>
 
 ## Identity
