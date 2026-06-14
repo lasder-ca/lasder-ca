@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="96" viewBox="0 0 1280 96" role="img" aria-label="section divider">
+  <rect width="1280" height="96" rx="26" fill="#090909"/>
+  <path d="M38 50 C180 10, 310 82, 455 44 S700 20, 858 54 S1088 84, 1240 32" fill="none" stroke="#e8bc75" stroke-width="2" opacity=".42"/>
+  <circle cx="172" cy="38" r="5" fill="#e8bc75" opacity=".72"/>
+  <circle cx="510" cy="37" r="4" fill="#e8bc75" opacity=".54"/>
+  <circle cx="935" cy="61" r="4" fill="#e8bc75" opacity=".54"/>
+  <text x="52" y="62" fill="#f5dfb8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">learning by making</text>
+  <text x="1035" y="62" fill="#9f8a68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">lattee.jp</text>
+</svg>
