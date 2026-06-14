@@ -1,9 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="96" viewBox="0 0 1280 96" role="img" aria-label="section divider">
-  <rect width="1280" height="96" rx="26" fill="#090909"/>
-  <path d="M38 50 C180 10, 310 82, 455 44 S700 20, 858 54 S1088 84, 1240 32" fill="none" stroke="#e8bc75" stroke-width="2" opacity=".42"/>
-  <circle cx="172" cy="38" r="5" fill="#e8bc75" opacity=".72"/>
-  <circle cx="510" cy="37" r="4" fill="#e8bc75" opacity=".54"/>
-  <circle cx="935" cy="61" r="4" fill="#e8bc75" opacity=".54"/>
-  <text x="52" y="62" fill="#f5dfb8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" font-weight="700">learning by making</text>
-  <text x="1035" y="62" fill="#9f8a68" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">lattee.jp</text>
+<!-- lattee-divider.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-label="lattee divider">
+  <defs>
+    <linearGradient id="lineGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="22%" stop-color="#f0c27b"/>
+      <stop offset="50%" stop-color="#f8f4ee"/>
+      <stop offset="78%" stop-color="#7de2c3"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+
+    <style>
+      .text {
+        font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        fill: #8f877d;
+        text-anchor: middle;
+        text-rendering: geometricPrecision;
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="96" rx="18" fill="#0a0a0a"/>
+
+  <path d="M80 48H1120" stroke="url(#lineGradient)" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="600" cy="48" r="4" fill="#f8f4ee"/>
+  <circle cx="560" cy="48" r="2.5" fill="#f0c27b"/>
+  <circle cx="640" cy="48" r="2.5" fill="#7de2c3"/>
+
+  <text x="600" y="76" class="text">quiet tools · real systems · honest security research</text>
 </svg>
