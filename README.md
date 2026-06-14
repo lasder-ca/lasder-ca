@@ -2,12 +2,14 @@
   <img src="/lasder-ca-banner.svg?v=2" width="100%" alt="lasder-ca banner" />
 </p>
 
-# latte / lasder-ca
+# latte / @lasder-ca
 
 lattee.jp を中心に、Webなどの開発に取り組んでいます。  
 BugHunter としても最近では Bughunt にて実績を残したこともあります。
 
-最近は db やバックエンドに取り組んでいます。
+最近は**DB**や**バックエンド**に取り組んでいます。
+
+~~フルスタックになりたい~~
 
 **Small steps. Real progress.**  
 をテーマに頑張っています。
