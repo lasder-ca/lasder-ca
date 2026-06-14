@@ -1,3 +1,4 @@
+<!-- lasder-ca-banner.svg -->
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="lasder-ca banner">
   <defs>
     <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
@@ -38,6 +39,7 @@
     </style>
   </defs>
 
+  <rect width="1200" height="240" rx="24" fill="#0a0a0a"/>
   <text x="600" y="92" class="name">lasder-ca</text>
   <text x="600" y="142" class="sub">Frontend Developer / Bug Hunter</text>
   <text x="600" y="178" class="small">lattee.jp · learning by making</text>
