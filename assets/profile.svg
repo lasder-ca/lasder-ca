@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">latte / lasder-ca GitHub profile</title>
+  <desc id="desc">GitHub profile banner showing latte's focus on web, backend, Rust, and security.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#21180f"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151c2b"/>
+      <stop offset="1" stop-color="#1a1511"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#efd1ad"/>
+      <stop offset="1" stop-color="#b8753d"/>
+    </linearGradient>
+
+    <radialGradient id="glow" cx="0.84" cy="0.12" r="0.72">
+      <stop offset="0" stop-color="#e5a867" stop-opacity=".22"/>
+      <stop offset=".68" stop-color="#9b673b" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".028"/>
+    </pattern>
+
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="820" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="820" rx="30" fill="url(#glow)"/>
+  <rect width="1200" height="820" rx="30" fill="url(#grid)"/>
+
+  <!-- Header -->
+  <g transform="translate(72 58)">
+    <rect x="0" y="0" width="7" height="208" rx="3.5" fill="#d7a66f"/>
+    <text x="34" y="45" fill="#f9fafb"
+          font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
+          font-size="22" font-weight="650" letter-spacing="3">HELLO, I'M</text>
+    <text x="30" y="122" fill="#fff"
+          font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
+          font-size="80" font-weight="760" letter-spacing="-3">latte</text>
+    <text x="36" y="162" fill="#cbd5e1"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="23">@lasder-ca</text>
+    <text x="36" y="205" fill="#e6d2bb"
+          font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif"
+          font-size="20">web · backend · rust · security</text>
+  </g>
+
+  <!-- Coffee mark -->
+  <g transform="translate(890 55)" filter="url(#shadow)">
+    <path d="M58 68c-15-18 14-27 1-45M99 66c-14-18 14-27 2-45M140 68c-15-18 14-27 1-45"
+          fill="none" stroke="#f7e5d0" stroke-width="8" stroke-linecap="round" opacity=".72"/>
+    <path d="M24 90h164v73c0 42-34 76-76 76h-12c-42 0-76-34-76-76Z"
+          fill="url(#accent)"/>
+    <path d="M188 110h22c36 0 39 57 2 63h-25"
+          fill="none" stroke="#d6a16a" stroke-width="18" stroke-linecap="round"/>
+    <ellipse cx="106" cy="92" rx="81" ry="23" fill="#f3dcc1"/>
+    <ellipse cx="106" cy="94" rx="64" ry="15" fill="#6c4128"/>
+    <path d="M54 191c24 23 77 34 111 0"
+          fill="none" stroke="#fff8ef" stroke-width="7" stroke-linecap="round" opacity=".38"/>
+  </g>
+
+  <!-- Section line -->
+  <rect x="52" y="298" width="1096" height="3" rx="1.5" fill="url(#accent)" opacity=".85"/>
+
+  <!-- Focus cards -->
+  <text x="52" y="345" fill="#f8fafc"
+        font-family="Inter, ui-sans-serif, system-ui, sans-serif"
+        font-size="23" font-weight="720">CURRENT FOCUS</text>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <g transform="translate(52 370)">
+      <rect width="252" height="108" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M33 42h18M42 33v18" stroke="#f0c999" stroke-width="3" stroke-linecap="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Web products</text>
+      <text x="24" y="78" fill="#94a3b8" font-size="15">Useful, simple, deployable.</text>
+    </g>
+
+    <g transform="translate(332 370)">
+      <rect width="252" height="108" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M32 37h20v14H32zM36 32h12"
+            fill="none" stroke="#f0c999" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Backend</text>
+      <text x="24" y="78" fill="#94a3b8" font-size="15">APIs, data and infrastructure.</text>
+    </g>
+
+    <g transform="translate(612 370)">
+      <rect width="252" height="108" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M34 49l8-15 8 15M37 44h10"
+            fill="none" stroke="#f0c999" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Rust tools</text>
+      <text x="24" y="78" fill="#94a3b8" font-size="15">Small, fast and auditable.</text>
+    </g>
+
+    <g transform="translate(892 370)">
+      <rect width="256" height="108" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M42 31l12 5v8c0 8-5 13-12 17-7-4-12-9-12-17v-8z"
+            fill="none" stroke="#f0c999" stroke-width="3" stroke-linejoin="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Security</text>
+      <text x="24" y="78" fill="#94a3b8" font-size="15">Research, review and testing.</text>
+    </g>
+  </g>
+
+  <!-- Featured project -->
+  <g transform="translate(52 520)">
+    <rect width="1096" height="172" rx="22" fill="url(#panel)" stroke="#334155"/>
+    <text x="30" y="43" fill="#d7a66f"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="15" letter-spacing="2">FEATURED PROJECT</text>
+    <text x="30" y="86" fill="#fff"
+          font-family="Inter, ui-sans-serif, system-ui, sans-serif"
+          font-size="34" font-weight="730">Lvau</text>
+    <text x="30" y="120" fill="#cbd5e1"
+          font-family="Inter, ui-sans-serif, system-ui, sans-serif"
+          font-size="17">A local file encryption tool written in Rust.</text>
+    <text x="30" y="148" fill="#94a3b8"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="15">XChaCha20-Poly1305 · Argon2id · HKDF · versioned format</text>
+
+    <g transform="translate(905 37)">
+      <circle cx="54" cy="48" r="47" fill="#d7a66f" opacity=".12"/>
+      <path d="M54 18l31 13v20c0 25-15 42-31 51-16-9-31-26-31-51V31Z"
+            fill="none" stroke="#d7a66f" stroke-width="5" stroke-linejoin="round"/>
+      <path d="M42 51l9 9 18-20"
+            fill="none" stroke="#efd1ad" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(52 728)">
+    <text x="0" y="29" fill="#f8fafc"
+          font-family="Inter, ui-sans-serif, system-ui, sans-serif"
+          font-size="24" font-weight="680">Small steps. Real progress.</text>
+    <text x="0" y="57" fill="#94a3b8"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="15">build · test · learn · improve</text>
+    <text x="1096" y="39" text-anchor="end" fill="#d7a66f"
+          font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+          font-size="17">lattee.jp</text>
+  </g>
+</svg>
