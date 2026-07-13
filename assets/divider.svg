@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="56" viewBox="0 0 1200 56" role="img" aria-label="Decorative divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d7a66f" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#d7a66f" stop-opacity=".55"/>
+      <stop offset=".5" stop-color="#f0cfaa"/>
+      <stop offset=".75" stop-color="#d7a66f" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#d7a66f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 28h492" stroke="url(#line)" stroke-width="2"/>
+  <path d="M676 28h492" stroke="url(#line)" stroke-width="2"/>
+  <g transform="translate(558 8)">
+    <path d="M17 15c-7-8 6-12 0-20M34 15c-7-8 6-12 0-20" fill="none" stroke="#d7a66f" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+    <path d="M4 18h44v11c0 10-8 18-18 18h-8C12 47 4 39 4 29Z" fill="#d7a66f" opacity=".18" stroke="#d7a66f"/>
+    <path d="M48 22h6c9 0 9 14 0 15h-6" fill="none" stroke="#d7a66f" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus</title>
+  <desc id="desc">Web products, backend systems, Rust tools, and security research.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#17120e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9c49a"/>
+      <stop offset="1" stop-color="#b8753d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="250" rx="24" fill="#0b1020"/>
+  <text x="52" y="56" fill="#f8fafc" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="700">CURRENT FOCUS</text>
+  <rect x="52" y="72" width="1096" height="3" rx="1.5" fill="url(#accent)" opacity=".85"/>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, sans-serif">
+    <g transform="translate(52 101)">
+      <rect width="252" height="104" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M33 42h18M42 33v18" stroke="#f0c999" stroke-width="3" stroke-linecap="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Web products</text>
+      <text x="24" y="76" fill="#94a3b8" font-size="15">Useful, simple, deployable.</text>
+    </g>
+    <g transform="translate(332 101)">
+      <rect width="252" height="104" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M32 37h20v14H32zM36 32h12" fill="none" stroke="#f0c999" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Backend</text>
+      <text x="24" y="76" fill="#94a3b8" font-size="15">APIs, data and infrastructure.</text>
+    </g>
+    <g transform="translate(612 101)">
+      <rect width="252" height="104" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M34 49l8-15 8 15M37 44h10" fill="none" stroke="#f0c999" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Rust tools</text>
+      <text x="24" y="76" fill="#94a3b8" font-size="15">Small, fast and auditable.</text>
+    </g>
+    <g transform="translate(892 101)">
+      <rect width="256" height="104" rx="18" fill="url(#panel)" stroke="#334155"/>
+      <circle cx="42" cy="42" r="17" fill="#d7a66f" opacity=".15"/>
+      <path d="M42 31l12 5v8c0 8-5 13-12 17-7-4-12-9-12-17v-8z" fill="none" stroke="#f0c999" stroke-width="3" stroke-linejoin="round"/>
+      <text x="72" y="39" fill="#f8fafc" font-size="20" font-weight="650">Security</text>
+      <text x="24" y="76" fill="#94a3b8" font-size="15">Research, review and testing.</text>
+    </g>
+  </g>
+</svg>
