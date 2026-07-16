@@ -2,9 +2,9 @@
 
 # latte
 
-**Student developer from Japan building security tools, AI-agent infrastructure, and practical web systems.**
+**Student developer from Japan building security tools, AI-agent infrastructure, and programing**
 
-学生として、動くものを作りながらセキュリティ・AI・Web開発を学んでいます。
+様々なものを作りながらセキュリティ・AI・プログラミングを学んでいます。
 
 [![Website](https://img.shields.io/badge/lattee.jp-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://lattee.jp)
 [![GitHub](https://img.shields.io/badge/@lasder--ca-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lasder-ca)
