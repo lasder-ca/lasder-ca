@@ -12,13 +12,7 @@
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&theme=github_dark&animation=load&duration=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&theme=default&animation=load&duration=2">
-  <img width="100%" alt="GitHub profile summary for lasder-ca" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&theme=default">
-</picture>
-
-## Building
+## Selected work
 
 <p align="center">
   <a href="https://github.com/latteworkspace/lvau">
@@ -40,45 +34,57 @@
 - **[Lvau](https://github.com/latteworkspace/lvau)** — signed, policy-checked, recoverable encrypted capsules for local files and developer workflows, written in Rust. The project is experimental and has not been formally audited.
 - **[PatchArena](https://github.com/lasder-ca/PatchArena)** — a reproducible benchmark runner that evaluates AI coding agents in fresh Git worktrees and preserves patches, logs, verification results, and machine-readable evidence.
 
-## GitHub activity
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&theme=github-compact&hide_border=true&area=true&days=60&custom_title=Contribution%20Activity">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&theme=github&hide_border=true&area=true&days=60&custom_title=Contribution%20Activity">
+  <img width="100%" alt="Contribution activity graph for lasder-ca" src="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&theme=github&hide_border=true&area=true&days=60&custom_title=Contribution%20Activity">
+</picture>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=lasder-ca&show_icons=true&include_all_commits=true&show=reviews,prs_merged&rank_icon=github&hide_border=true&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=lasder-ca&show_icons=true&include_all_commits=true&show=reviews,prs_merged&rank_icon=github&hide_border=true&theme=default">
-    <img height="165" alt="GitHub statistics" src="https://github-stats-extended.vercel.app/api?username=lasder-ca&show_icons=true&include_all_commits=true&show=reviews,prs_merged&rank_icon=github&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&theme=github_dark&exclude_repos=EdgeChains,lasder-ca&animation=draw&duration=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&theme=github&exclude_repos=EdgeChains,lasder-ca&animation=draw&duration=2">
+    <img width="49%" alt="Repositories per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&theme=github&exclude_repos=EdgeChains,lasder-ca">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=lasder-ca&layout=compact&langs_count=8&exclude_repo=EdgeChains,lasder-ca&hide_border=true&theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=lasder-ca&layout=compact&langs_count=8&exclude_repo=EdgeChains,lasder-ca&hide_border=true&theme=default">
-    <img height="165" alt="Most used languages" src="https://github-stats-extended.vercel.app/api/top-langs/?username=lasder-ca&layout=compact&langs_count=8&exclude_repo=EdgeChains,lasder-ca&hide_border=true">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&theme=github_dark&exclude_repos=EdgeChains,lasder-ca&animation=draw&duration=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&theme=github&exclude_repos=EdgeChains,lasder-ca&animation=draw&duration=2">
+    <img width="49%" alt="Most used languages in commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&theme=github&exclude_repos=EdgeChains,lasder-ca">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=lasder-ca&theme=github-dark-blue&hide_border=true&date_format=Y%2Fn%2Fj">
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=lasder-ca&theme=default&hide_border=true&date_format=Y%2Fn%2Fj">
-    <img width="70%" alt="GitHub contribution streak" src="https://streak-stats.demolab.com?user=lasder-ca&hide_border=true&date_format=Y%2Fn%2Fj">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&theme=github_dark&animation=load&duration=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&theme=github&animation=load&duration=2">
+    <img width="49%" alt="GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&theme=github">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lasder-ca&theme=github_dark&utcOffset=9&animation=draw&duration=2">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lasder-ca&theme=github&utcOffset=9&animation=draw&duration=2">
+    <img width="49%" alt="Commit activity by time of day" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lasder-ca&theme=github&utcOffset=9">
   </picture>
 </p>
 
-## Toolbox
+## Stack
 
-<p>
-  <img alt="Rust" src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img alt="Go" src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white">
-  <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
-  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111">
-  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white">
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-</p>
+**Languages**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,ts,js,py,go,java,kotlin&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=rust,ts,js,py,go,java,kotlin&theme=light">
+  <img alt="Rust, TypeScript, JavaScript, Python, Go, Java, and Kotlin" src="https://skillicons.dev/icons?i=rust,ts,js,py,go,java,kotlin&theme=light">
+</picture>
+
+**Platforms and tooling**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=nodejs,git,github,githubactions,linux,docker,cloudflare,vercel&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=nodejs,git,github,githubactions,linux,docker,cloudflare,vercel&theme=light">
+  <img alt="Node.js, Git, GitHub, GitHub Actions, Linux, Docker, Cloudflare, and Vercel" src="https://skillicons.dev/icons?i=nodejs,git,github,githubactions,linux,docker,cloudflare,vercel&theme=light">
+</picture>
 
 ## Focus
 
