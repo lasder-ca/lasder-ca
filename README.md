@@ -6,7 +6,7 @@
   </a>
 
   <p><strong>Security tools · AI agents · Systems</strong></p>
-  <p>セキュリティ・AI・システム開発を、実装と検証を通して学んでいる学生開発者です。</p>
+  <p>セキュリティ・AI・システム開発を学んでいる学生開発者です。</p>
 
   [![Website](https://img.shields.io/badge/lattee.jp-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://lattee.jp)
   [![X](https://img.shields.io/badge/@lattejp__-161B22?style=flat-square&logo=x&logoColor=F0F6FC)](https://x.com/lattejp_)
@@ -17,7 +17,7 @@
 
 ## About
 
-暗号化ツール、AI coding agentの評価基盤、最短経路探索アルゴリズムなどを開発しています。単に動くものを作るだけでなく、**失敗時の挙動、再現手順、検証結果、制約の明記**まで含めて設計することを重視しています。
+暗号化ツール、AI coding agentの評価基盤、最短経路探索アルゴリズムなどを開発しています。動くものを作るだけでなく、**失敗時の挙動、再現手順、検証結果、制約の明記**まで含めて設計することを重視しています。
 
 ## Selected work
 
