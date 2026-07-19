@@ -52,7 +52,9 @@
 ## 3D contributions
 
 <p align="center">
-  <img width="100%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub contribution graph for lasder-ca">
+  <a href="https://commitpulse.vercel.app/?user=lasder-ca">
+    <img width="100%" src="https://commitpulse.vercel.app/api/streak?user=lasder-ca&theme=auto" alt="Live 3D GitHub contribution monolith for lasder-ca">
+  </a>
 </p>
 
 ## GitHub overview
@@ -73,7 +75,7 @@
 </p>
 
 <div align="center">
-  <sub>Community components: capsule-render · github-profile-3d-contrib · github-readme-stats · github-readme-activity-graph · skillicons</sub>
+  <sub>Community components: capsule-render · CommitPulse · github-readme-stats · github-readme-activity-graph · skillicons</sub>
 
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1F6FEB,55:161B22,100:0D1117&height=100&section=footer" alt="Profile footer">
 </div>
