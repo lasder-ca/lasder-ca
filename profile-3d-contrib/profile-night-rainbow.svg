@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-labelledby="title desc">
+  <title id="title">3D contribution map</title>
+  <desc id="desc">Temporary isometric contribution artwork. GitHub Actions replaces this image with current contribution data.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#67e8f9"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="998" height="418" rx="26" fill="url(#bg)" stroke="#334155"/>
+  <text x="54" y="64" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">3D CONTRIBUTION MAP</text>
+  <text x="55" y="91" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="1.5">GENERATED DAILY BY GITHUB ACTIONS</text>
+  <g transform="translate(108 126) skewY(-12)" filter="url(#shadow)">
+    <rect width="760" height="188" rx="12" fill="#0b1728" stroke="#1e293b"/>
+    <g fill="#172033">
+      <rect x="22" y="22" width="28" height="28" rx="4"/><rect x="58" y="22" width="28" height="28" rx="4"/><rect x="94" y="22" width="28" height="28" rx="4"/><rect x="130" y="22" width="28" height="28" rx="4"/><rect x="166" y="22" width="28" height="28" rx="4"/><rect x="202" y="22" width="28" height="28" rx="4"/><rect x="238" y="22" width="28" height="28" rx="4"/><rect x="274" y="22" width="28" height="28" rx="4"/><rect x="310" y="22" width="28" height="28" rx="4"/><rect x="346" y="22" width="28" height="28" rx="4"/><rect x="382" y="22" width="28" height="28" rx="4"/><rect x="418" y="22" width="28" height="28" rx="4"/><rect x="454" y="22" width="28" height="28" rx="4"/><rect x="490" y="22" width="28" height="28" rx="4"/><rect x="526" y="22" width="28" height="28" rx="4"/><rect x="562" y="22" width="28" height="28" rx="4"/><rect x="598" y="22" width="28" height="28" rx="4"/><rect x="634" y="22" width="28" height="28" rx="4"/><rect x="670" y="22" width="28" height="28" rx="4"/>
+      <rect x="22" y="58" width="28" height="28" rx="4"/><rect x="58" y="58" width="28" height="28" rx="4"/><rect x="94" y="58" width="28" height="28" rx="4"/><rect x="130" y="58" width="28" height="28" rx="4"/><rect x="166" y="58" width="28" height="28" rx="4"/><rect x="202" y="58" width="28" height="28" rx="4"/><rect x="238" y="58" width="28" height="28" rx="4"/><rect x="274" y="58" width="28" height="28" rx="4"/><rect x="310" y="58" width="28" height="28" rx="4"/><rect x="346" y="58" width="28" height="28" rx="4"/><rect x="382" y="58" width="28" height="28" rx="4"/><rect x="418" y="58" width="28" height="28" rx="4"/><rect x="454" y="58" width="28" height="28" rx="4"/><rect x="490" y="58" width="28" height="28" rx="4"/><rect x="526" y="58" width="28" height="28" rx="4"/><rect x="562" y="58" width="28" height="28" rx="4"/><rect x="598" y="58" width="28" height="28" rx="4"/><rect x="634" y="58" width="28" height="28" rx="4"/><rect x="670" y="58" width="28" height="28" rx="4"/>
+      <rect x="22" y="94" width="28" height="28" rx="4"/><rect x="58" y="94" width="28" height="28" rx="4"/><rect x="94" y="94" width="28" height="28" rx="4"/><rect x="130" y="94" width="28" height="28" rx="4"/><rect x="166" y="94" width="28" height="28" rx="4"/><rect x="202" y="94" width="28" height="28" rx="4"/><rect x="238" y="94" width="28" height="28" rx="4"/><rect x="274" y="94" width="28" height="28" rx="4"/><rect x="310" y="94" width="28" height="28" rx="4"/><rect x="346" y="94" width="28" height="28" rx="4"/><rect x="382" y="94" width="28" height="28" rx="4"/><rect x="418" y="94" width="28" height="28" rx="4"/><rect x="454" y="94" width="28" height="28" rx="4"/><rect x="490" y="94" width="28" height="28" rx="4"/><rect x="526" y="94" width="28" height="28" rx="4"/><rect x="562" y="94" width="28" height="28" rx="4"/><rect x="598" y="94" width="28" height="28" rx="4"/><rect x="634" y="94" width="28" height="28" rx="4"/><rect x="670" y="94" width="28" height="28" rx="4"/>
+      <rect x="22" y="130" width="28" height="28" rx="4"/><rect x="58" y="130" width="28" height="28" rx="4"/><rect x="94" y="130" width="28" height="28" rx="4"/><rect x="130" y="130" width="28" height="28" rx="4"/><rect x="166" y="130" width="28" height="28" rx="4"/><rect x="202" y="130" width="28" height="28" rx="4"/><rect x="238" y="130" width="28" height="28" rx="4"/><rect x="274" y="130" width="28" height="28" rx="4"/><rect x="310" y="130" width="28" height="28" rx="4"/><rect x="346" y="130" width="28" height="28" rx="4"/><rect x="382" y="130" width="28" height="28" rx="4"/><rect x="418" y="130" width="28" height="28" rx="4"/><rect x="454" y="130" width="28" height="28" rx="4"/><rect x="490" y="130" width="28" height="28" rx="4"/><rect x="526" y="130" width="28" height="28" rx="4"/><rect x="562" y="130" width="28" height="28" rx="4"/><rect x="598" y="130" width="28" height="28" rx="4"/><rect x="634" y="130" width="28" height="28" rx="4"/><rect x="670" y="130" width="28" height="28" rx="4"/>
+    </g>
+    <g fill="url(#top)">
+      <rect x="130" y="22" width="28" height="28" rx="4"/><rect x="202" y="58" width="28" height="28" rx="4"/><rect x="274" y="94" width="28" height="28" rx="4"/><rect x="346" y="58" width="28" height="28" rx="4"/><rect x="418" y="130" width="28" height="28" rx="4"/><rect x="490" y="94" width="28" height="28" rx="4"/><rect x="562" y="58" width="28" height="28" rx="4"/><rect x="634" y="22" width="28" height="28" rx="4"/>
+    </g>
+  </g>
+  <text x="500" y="384" text-anchor="middle" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">INITIAL ARTWORK · LIVE CONTRIBUTION DATA WILL REPLACE THIS FILE</text>
+</svg>
