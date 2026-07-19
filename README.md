@@ -1,87 +1,104 @@
 <div align="center">
-  <img width="100%" src="./assets/profile-header.svg" alt="lasder-ca — Security tools, AI agents, and systems">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,55:161B22,100:1F6FEB&amp;height=125&amp;section=header" alt="Profile header decoration">
 
-  <p>セキュリティ・AI・プログラミングを、制作と検証を通して学んでいます。</p>
+  <a href="https://github.com/lasder-ca">
+    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&amp;weight=700&amp;size=42&amp;duration=1600&amp;pause=1200&amp;color=F0F6FC&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=760&amp;height=72&amp;lines=lasder-ca" alt="lasder-ca">
+  </a>
 
-  <a href="https://lattee.jp">Website</a>
-  &nbsp;·&nbsp;
-  <a href="https://x.com/lattejp_">X</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:contact@lattee.jp">Email</a>
+  <p><strong>Security tools · AI agents · Systems</strong></p>
+  <p>セキュリティ・AI・システム開発を、実装と検証を通して学んでいます。</p>
+
+  [![Website](https://img.shields.io/badge/lattee.jp-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://lattee.jp)
+  [![X](https://img.shields.io/badge/@lattejp__-161B22?style=flat-square&logo=x&logoColor=F0F6FC)](https://x.com/lattejp_)
+  [![Email](https://img.shields.io/badge/contact@lattee.jp-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:contact@lattee.jp)
+
+  [![Developer Ethics](https://img.shields.io/badge/Developer%20Ethics-Public%20Commitment-2EA44F?style=flat-square&logo=readthedocs&logoColor=white)](./ETHICS.md)
+  [![Ethical Source](https://img.shields.io/badge/Ethical%20Source-Principles-6F42C1?style=flat-square&logo=shield&logoColor=white)](https://ethicalsource.dev/what-we-believe)
+  [![Responsible Disclosure](https://img.shields.io/badge/Security-Responsible%20Disclosure-0969DA?style=flat-square&logo=hackthebox&logoColor=white)](./ETHICS.md#responsible-security-research)
 </div>
 
-## What I build
+## Current focus
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>Security</strong><br><br>
-      ローカルファーストな暗号化、脅威モデル、再現可能な脆弱性検証。
-    </td>
-    <td width="33%" valign="top">
-      <strong>AI agents</strong><br><br>
-      Patch・ログ・テスト結果を残せる、AI coding agentの評価基盤。
-    </td>
-    <td width="33%" valign="top">
-      <strong>Systems</strong><br><br>
-      Rust、Go、TypeScript、Linux、エッジ基盤、CIと自動化。
-    </td>
-  </tr>
-</table>
+- 🔐 **Security tooling** — ローカルファーストな暗号化、脅威モデル、安全な失敗挙動、再現可能な脆弱性検証
+- 🤖 **AI agents** — Patch・ログ・テスト結果を残し、後から検証できるAI coding agent評価基盤
+- ⚙️ **Systems & algorithms** — Rust、Go、TypeScript、Linux、CI、自動化、実地データによるベンチマーク
 
-## Featured projects
+## Selected work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/latteworkspace/lvau">Lvau</a></h3>
-      <p>ローカルファイルを安全に扱うためのRust製暗号化ツール。復旧性、改ざん検知、失敗時の安全性まで含めて設計しています。</p>
-      <p><code>Rust</code> <code>Encryption</code> <code>Local-first</code></p>
-      <sub>実験段階であり、正式なセキュリティ監査は未実施です。</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/lasder-ca/PatchArena">PatchArena</a></h3>
-      <p>AI coding agentを隔離されたGit worktreeで実行し、Patch・ログ・検証結果を保存する再現可能なベンチマーク基盤です。</p>
-      <p><code>AI agents</code> <code>Git</code> <code>Reproducible</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3><a href="https://github.com/lasder-ca/aegis-acbs">Aegis ACBS</a></h3>
-      <p>実地道路グラフ上で、適応的な双方向最短経路探索を検証する研究プロジェクト。再現可能なベンチマークと測定根拠を重視しています。</p>
-      <p><code>Go</code> <code>Algorithms</code> <code>OpenStreetMap</code></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/latteworkspace/lvau">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=latteworkspace&amp;repo=lvau&amp;theme=github_dark&amp;hide_border=true&amp;show_owner=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=latteworkspace&amp;repo=lvau&amp;theme=default&amp;hide_border=true&amp;show_owner=true">
+      <img width="49%" alt="Lvau repository card" src="https://github-stats-extended.vercel.app/api/pin/?username=latteworkspace&amp;repo=lvau&amp;hide_border=true&amp;show_owner=true">
+    </picture>
+  </a>
+  <a href="https://github.com/lasder-ca/PatchArena">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=PatchArena&amp;theme=github_dark&amp;hide_border=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=PatchArena&amp;theme=default&amp;hide_border=true">
+      <img width="49%" alt="PatchArena repository card" src="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=PatchArena&amp;hide_border=true">
+    </picture>
+  </a>
+</p>
 
-## Contribution focus
+<p align="center">
+  <a href="https://github.com/lasder-ca/aegis-acbs">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=aegis-acbs&amp;theme=github_dark&amp;hide_border=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=aegis-acbs&amp;theme=default&amp;hide_border=true">
+      <img width="49%" alt="Aegis ACBS repository card" src="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=aegis-acbs&amp;hide_border=true">
+    </picture>
+  </a>
+</p>
 
-| Area | Current work |
-|---|---|
-| Open source | Issue調査、実装、テスト、レビュー可能な根拠を含むPull Request |
-| Security research | 許可された範囲での再現、影響確認、責任ある開示 |
-| Developer tools | ローカルファースト、安全な失敗、検証可能な出力 |
-| Algorithms | 実地データを使った再現可能なベンチマークと比較 |
+- **[Lvau](https://github.com/latteworkspace/lvau)** — Rust製のローカルファイル暗号化ツール。復旧性、改ざん検知、安全な失敗挙動まで含めて設計しています。現在は実験段階で、正式なセキュリティ監査は未実施です。
+- **[PatchArena](https://github.com/lasder-ca/PatchArena)** — AI coding agentを隔離されたGit worktreeで評価し、Patch・ログ・検証結果を保存する再現可能なベンチマーク基盤です。
+- **[Aegis ACBS](https://github.com/lasder-ca/aegis-acbs)** — 実地道路グラフ上で、適応的な双方向最短経路探索を検証する研究プロジェクトです。
 
-[Contribution activityを見る](https://github.com/lasder-ca?tab=overview) · [Pull requestsを見る](https://github.com/pulls?q=is%3Apr+author%3Alasder-ca)
+## GitHub activity
 
-## Developer ethics
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&amp;theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&amp;theme=github">
+    <img width="100%" alt="GitHub profile activity summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&amp;theme=github">
+  </picture>
+</p>
 
-**Status:** `Developer ethics · self-attested commitment`
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github">
+    <img width="49%" alt="Repositories per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github">
+    <img width="49%" alt="GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github">
+  </picture>
+</p>
 
-> 第三者機関による認証ではありません。開発・OSS活動・セキュリティ研究における公開方針として、以下を遵守します。
-
-- 許可された対象・範囲・規約の中でのみ調査と検証を行う
-- 個人情報、秘密情報、認証情報の取得・保存・公開を最小限にする
-- 脆弱性は責任ある開示を行い、修正前の悪用を促進しない
-- 実験的・未監査・未検証の機能は、その制約を明記する
-- 結果を誇張せず、再現手順・テスト・失敗条件を可能な範囲で残す
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-compact&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-light&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
+    <img width="100%" alt="Recent GitHub contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-light&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
+  </picture>
+</p>
 
 ## Tech stack
 
-`Rust` · `Go` · `TypeScript` · `JavaScript` · `Python` · `Node.js`  
-`Git` · `GitHub Actions` · `Linux` · `Ubuntu` · `Bash` · `Docker` · `Cloudflare` · `Vercel`
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=14&amp;theme=dark" alt="Rust, Go, TypeScript, JavaScript, Python, Node.js, Git, GitHub Actions, Linux, Ubuntu, Bash, Docker, Cloudflare, and Vercel">
+</p>
+
+## Engineering principles
+
+> Authorized scope only · minimize sensitive data · responsible disclosure · reproducible evidence over unsupported claims.
+
+詳しい方針は **[Developer ethics and responsible research](./ETHICS.md)** にまとめています。
 
 <div align="center">
-  <sub>No third-party image renderer required.</sub>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1F6FEB,55:161B22,100:0D1117&amp;height=90&amp;section=footer" alt="Profile footer decoration">
 </div>
