@@ -6,7 +6,7 @@
   </a>
 
   <p><strong>Security tools · AI agents · Systems</strong></p>
-  <p>作って、壊して、検証しながら、セキュリティ・AI・プログラミングを学んでいます。</p>
+  <p>セキュリティ・AI・プログラミングを学んでいます。</p>
 
   [![Website](https://img.shields.io/badge/lattee.jp-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://lattee.jp)
   [![X](https://img.shields.io/badge/@lattejp__-161B22?style=flat-square&logo=x&logoColor=F0F6FC)](https://x.com/lattejp_)
