@@ -94,45 +94,24 @@
   </picture>
 </p>
 
-## Languages & tools
+## Toolbox
 
 <p align="center">
-  <strong>Languages</strong><br><br>
-  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111827" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python">
-</p>
-
-<p align="center">
-  <strong>Platform & delivery</strong><br><br>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=111827" alt="Linux">
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare">
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Vercel">
-</p>
-
-## Build approach
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Inspectable-logs%20%7C%20patches%20%7C%20versions-1F6FEB?style=for-the-badge&amp;labelColor=161B22" alt="Inspectable outputs">
-  <img src="https://img.shields.io/badge/Reproducible-repeatable%20before%20impressive-2EA44F?style=for-the-badge&amp;labelColor=161B22" alt="Reproducible engineering">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Boundaries-experimental%20and%20unverified%20are%20labeled-8250DF?style=for-the-badge&amp;labelColor=161B22" alt="Explicit boundaries">
-  <a href="./ETHICS.md"><img src="https://img.shields.io/badge/Security-authorized%20scope%20%7C%20responsible%20disclosure-D29922?style=for-the-badge&amp;labelColor=161B22" alt="Responsible security research"></a>
-</p>
-
-<p align="center">
-  実行結果と失敗条件を残し、再現可能性を優先し、未監査・未検証の範囲を明記して開発します。<br>
-  <sub><a href="./ETHICS.md">Developer ethics and responsible research</a> · <a href="mailto:contact@lattee.jp">Security contact</a></sub>
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust" title="Rust">
+  <img src="https://img.shields.io/badge/-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go" title="Go">
+  <img src="https://img.shields.io/badge/-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" title="TypeScript">
+  <img src="https://img.shields.io/badge/-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111827" alt="JavaScript" title="JavaScript">
+  <img src="https://img.shields.io/badge/-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" title="Python">
+  <img src="https://img.shields.io/badge/-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" title="Node.js">
+  <img src="https://img.shields.io/badge/-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" title="Git">
+  <br>
+  <img src="https://img.shields.io/badge/-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" title="GitHub Actions">
+  <img src="https://img.shields.io/badge/-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=111827" alt="Linux" title="Linux">
+  <img src="https://img.shields.io/badge/-E95420?style=for-the-badge&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu" title="Ubuntu">
+  <img src="https://img.shields.io/badge/-4EAA25?style=for-the-badge&amp;logo=gnubash&amp;logoColor=white" alt="Bash" title="Bash">
+  <img src="https://img.shields.io/badge/-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" title="Docker">
+  <img src="https://img.shields.io/badge/-F38020?style=for-the-badge&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare" title="Cloudflare">
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Vercel" title="Vercel">
 </p>
 
 <div align="center">
