@@ -1,18 +1,33 @@
 <div align="center">
+  <img src="./assets/lasder-3d.svg" width="100%" alt="LASDER — student developer building security tools, AI-agent infrastructure, and systems">
 
-# latte
+  <br>
 
-**Student developer from Japan building security tools, AI-agent infrastructure, and programing**
-
-様々なものを作りながらセキュリティ・AI・プログラミングを学んでいます。
-
-[![Website](https://img.shields.io/badge/lattee.jp-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://lattee.jp)
-[![GitHub](https://img.shields.io/badge/@lasder--ca-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/lasder-ca)
-[![Email](https://img.shields.io/badge/contact@lattee.jp-111827?style=flat-square&logo=gmail&logoColor=white)](mailto:contact@lattee.jp)
-
+  [![Website](https://img.shields.io/badge/lattee.jp-0b1728?style=for-the-badge&logo=googlechrome&logoColor=67e8f9)](https://lattee.jp)
+  [![GitHub](https://img.shields.io/badge/@lasder--ca-0b1728?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/lasder-ca)
+  [![Email](https://img.shields.io/badge/contact-0b1728?style=for-the-badge&logo=gmail&logoColor=c4b5fd)](mailto:contact@lattee.jp)
 </div>
 
-## Selected work
+<br>
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🔐 Security</h3>
+      <p>Local-first encryption, threat modeling, abuse-case testing, and security research with reproducible evidence.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🧠 AI agents</h3>
+      <p>Evaluation infrastructure that preserves patches, logs, test results, and the reasoning evidence needed for review.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>⚙️ Systems</h3>
+      <p>Rust, Go, TypeScript, Linux, edge infrastructure, CI, releases, and automation built around inspectable behavior.</p>
+    </td>
+  </tr>
+</table>
+
+## Featured work
 
 <p align="center">
   <a href="https://github.com/latteworkspace/lvau">
@@ -31,8 +46,27 @@
   </a>
 </p>
 
-- **[Lvau](https://github.com/latteworkspace/lvau)** — signed, policy-checked, recoverable encrypted capsules for local files and developer workflows, written in Rust. The project is experimental and has not been formally audited.
-- **[PatchArena](https://github.com/lasder-ca/PatchArena)** — a reproducible benchmark runner that evaluates AI coding agents in fresh Git worktrees and preserves patches, logs, verification results, and machine-readable evidence.
+<p align="center">
+  <a href="https://github.com/lasder-ca/aegis-acbs">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=aegis-acbs&amp;theme=github_dark&amp;hide_border=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=aegis-acbs&amp;theme=default&amp;hide_border=true">
+      <img width="49%" alt="Aegis ACBS repository card" src="https://github-stats-extended.vercel.app/api/pin/?username=lasder-ca&amp;repo=aegis-acbs&amp;hide_border=true">
+    </picture>
+  </a>
+</p>
+
+- **[Lvau](https://github.com/latteworkspace/lvau)** — recoverable encrypted capsules for local files and developer workflows, written in Rust. Experimental and not formally audited.
+- **[PatchArena](https://github.com/lasder-ca/PatchArena)** — reproducible evaluation for AI coding agents in isolated Git worktrees, with patches, logs, checks, and machine-readable evidence.
+- **[Aegis ACBS](https://github.com/lasder-ca/aegis-acbs)** — experimental road-network routing research focused on adaptive bidirectional search and reproducible real-map benchmarks.
+
+## 3D contribution map
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D GitHub contribution map for lasder-ca">
+</p>
+
+<sub>The map is regenerated automatically from current GitHub contribution data.</sub>
 
 ## Activity
 
@@ -49,74 +83,22 @@
     <img width="49%" alt="Repositories per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github&amp;exclude_repos=EdgeChains,lasder-ca">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github_dark&amp;exclude_repos=EdgeChains,lasder-ca&amp;animation=draw&amp;duration=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github&amp;exclude_repos=EdgeChains,lasder-ca&amp;animation=draw&amp;duration=2">
-    <img width="49%" alt="Most used languages in commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github&amp;exclude_repos=EdgeChains,lasder-ca">
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github_dark&amp;animation=load&amp;duration=2">
     <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github&amp;animation=load&amp;duration=2">
     <img width="49%" alt="GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lasder-ca&amp;theme=github_dark&amp;utcOffset=9&amp;animation=draw&amp;duration=2">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lasder-ca&amp;theme=github&amp;utcOffset=9&amp;animation=draw&amp;duration=2">
-    <img width="49%" alt="Commit activity by time of day" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=lasder-ca&amp;theme=github&amp;utcOffset=9">
   </picture>
 </p>
 
 ## Stack
 
-### Languages
-
-<table>
-  <tr>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=rust&amp;theme=dark" width="48" height="48" alt="Rust"><br><sub>Rust</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" width="48" height="48" alt="TypeScript"><br><sub>TypeScript</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=js&amp;theme=dark" width="48" height="48" alt="JavaScript"><br><sub>JavaScript</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=py&amp;theme=dark" width="48" height="48" alt="Python"><br><sub>Python</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=go&amp;theme=dark" width="48" height="48" alt="Go"><br><sub>Go</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=java&amp;theme=dark" width="48" height="48" alt="Java"><br><sub>Java</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=kotlin&amp;theme=dark" width="48" height="48" alt="Kotlin"><br><sub>Kotlin</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=html&amp;theme=dark" width="48" height="48" alt="HTML"><br><sub>HTML</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=css&amp;theme=dark" width="48" height="48" alt="CSS"><br><sub>CSS</sub></td>
-    <td align="center" width="100"></td>
-  </tr>
-</table>
-
-### Runtime, infrastructure and delivery
-
-<table>
-  <tr>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" width="48" height="48" alt="Node.js"><br><sub>Node.js</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=git&amp;theme=dark" width="48" height="48" alt="Git"><br><sub>Git</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=github&amp;theme=dark" width="48" height="48" alt="GitHub"><br><sub>GitHub</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=githubactions&amp;theme=dark" width="48" height="48" alt="GitHub Actions"><br><sub>Actions</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=linux&amp;theme=dark" width="48" height="48" alt="Linux"><br><sub>Linux</sub></td>
-  </tr>
-  <tr>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=ubuntu&amp;theme=dark" width="48" height="48" alt="Ubuntu"><br><sub>Ubuntu</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=bash&amp;theme=dark" width="48" height="48" alt="Bash"><br><sub>Bash</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=docker&amp;theme=dark" width="48" height="48" alt="Docker"><br><sub>Docker</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=cloudflare&amp;theme=dark" width="48" height="48" alt="Cloudflare"><br><sub>Cloudflare</sub></td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=vercel&amp;theme=dark" width="48" height="48" alt="Vercel"><br><sub>Vercel</sub></td>
-  </tr>
-</table>
-
-## Focus
-
-- Security-focused and local-first developer tools
-- Reproducible evaluation for AI coding agents
-- Backend, edge infrastructure, CI, releases, and automation
-- Clear threat models, testable behavior, and inspectable outputs
-
 <p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=14&amp;theme=dark" alt="Rust, Go, TypeScript, JavaScript, Python, Node.js, Git, GitHub Actions, Linux, Ubuntu, Bash, Docker, Cloudflare, and Vercel">
+</p>
+
+<div align="center">
+  <code>build</code> · <code>break</code> · <code>verify</code>
+  <br><br>
   <a href="https://lattee.jp">lattee.jp</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/lasder-ca?tab=repositories">all repositories</a>
-</p>
+</div>
