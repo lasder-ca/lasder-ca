@@ -82,8 +82,8 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-compact&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-light&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
-    <img width="100%" alt="Recent GitHub contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-light&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
+    <img width="100%" alt="Recent GitHub contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
   </picture>
 </p>
 
