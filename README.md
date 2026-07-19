@@ -96,23 +96,7 @@
 
 ## Toolbox
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust" title="Rust">
-  <img src="https://img.shields.io/badge/-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go" title="Go">
-  <img src="https://img.shields.io/badge/-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript" title="TypeScript">
-  <img src="https://img.shields.io/badge/-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111827" alt="JavaScript" title="JavaScript">
-  <img src="https://img.shields.io/badge/-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python" title="Python">
-  <img src="https://img.shields.io/badge/-339933?style=for-the-badge&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" title="Node.js">
-  <img src="https://img.shields.io/badge/-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" alt="Git" title="Git">
-  <br>
-  <img src="https://img.shields.io/badge/-2088FF?style=for-the-badge&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions" title="GitHub Actions">
-  <img src="https://img.shields.io/badge/-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=111827" alt="Linux" title="Linux">
-  <img src="https://img.shields.io/badge/-E95420?style=for-the-badge&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu" title="Ubuntu">
-  <img src="https://img.shields.io/badge/-4EAA25?style=for-the-badge&amp;logo=gnubash&amp;logoColor=white" alt="Bash" title="Bash">
-  <img src="https://img.shields.io/badge/-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" alt="Docker" title="Docker">
-  <img src="https://img.shields.io/badge/-F38020?style=for-the-badge&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare" title="Cloudflare">
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Vercel" title="Vercel">
-</p>
+<p align="center"><img width="48" height="48" src="https://cdn.simpleicons.org/rust/FFFFFF" alt="Rust" title="Rust">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/go/00ADD8" alt="Go" title="Go">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" title="TypeScript">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" title="JavaScript">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" title="Python">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="Node.js" title="Node.js">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/git/F05032" alt="Git" title="Git">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" title="GitHub Actions">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" title="Linux">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/ubuntu/E95420" alt="Ubuntu" title="Ubuntu">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash" title="Bash">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" title="Docker">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/cloudflare/F38020" alt="Cloudflare" title="Cloudflare">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/vercel/FFFFFF" alt="Vercel" title="Vercel"></p>
 
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1F6FEB,55:161B22,100:0D1117&amp;height=90&amp;section=footer" alt="Profile footer decoration">
