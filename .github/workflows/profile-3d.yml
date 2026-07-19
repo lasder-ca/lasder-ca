@@ -1,12 +1,12 @@
-name: Generate 3D contribution map
+name: Generate 3D contribution profile
 
 on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
   push:
     paths:
       - .github/workflows/profile-3d.yml
-  schedule:
-    - cron: "17 18 * * *"
-  workflow_dispatch:
 
 permissions:
   contents: write
@@ -24,13 +24,13 @@ jobs:
       - name: Check out profile repository
         uses: actions/checkout@v5
 
-      - name: Generate contribution artwork
+      - name: Generate 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
-      - name: Commit generated artwork
+      - name: Commit generated SVGs
         shell: bash
         run: |
           set -euo pipefail
@@ -40,9 +40,10 @@ jobs:
           git add profile-3d-contrib/
 
           if git diff --cached --quiet; then
-            echo "No contribution artwork changes."
+            echo "No 3D contribution changes."
             exit 0
           fi
 
-          git commit -m "chore(profile): refresh 3D contribution map"
+          git commit -m "chore(profile): refresh 3D contributions"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
