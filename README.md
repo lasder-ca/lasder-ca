@@ -6,7 +6,7 @@
   </a>
 
   <p><strong>Security tools · AI agents · Systems</strong></p>
-  <p>セキュリティ・AI・システム開発を、実装と検証を通して学んでいます。</p>
+  <p>セキュリティ・AI・システム開発を、実装と検証を通して学んでいる学生開発者です。</p>
 
   [![Website](https://img.shields.io/badge/lattee.jp-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://lattee.jp)
   [![X](https://img.shields.io/badge/@lattejp__-161B22?style=flat-square&logo=x&logoColor=F0F6FC)](https://x.com/lattejp_)
@@ -15,46 +15,50 @@
   [![技術者倫理 遵守済み](https://img.shields.io/badge/%E6%8A%80%E8%A1%93%E8%80%85%E5%80%AB%E7%90%86-%E9%81%B5%E5%AE%88%E6%B8%88%E3%81%BF-0a0a0a?style=for-the-badge&labelColor=ffffff)](https://xn--zwqt06btym6jly7j.com)
 </div>
 
-## Current focus
+## About
 
-- 🔐 **Security tooling** — ローカルファーストな暗号化、脅威モデル、安全な失敗挙動、再現可能な脆弱性検証
-- 🤖 **AI agents** — Patch・ログ・テスト結果を残し、後から検証できるAI coding agent評価基盤
-- ⚙️ **Systems & algorithms** — Rust、Go、TypeScript、Linux、CI、自動化、実地データによるベンチマーク
+暗号化ツール、AI coding agentの評価基盤、最短経路探索アルゴリズムなどを開発しています。単に動くものを作るだけでなく、**失敗時の挙動、再現手順、検証結果、制約の明記**まで含めて設計することを重視しています。
 
 ## Selected work
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/latteworkspace/lvau">Lvau</a></h3>
-      <p>Rust製のローカルファイル暗号化ツール。復旧性、改ざん検知、安全な失敗挙動まで含めて設計しています。</p>
+      <h3>🔐 <a href="https://github.com/latteworkspace/lvau">Lvau</a></h3>
+      <p><em>Inspectable encrypted capsules for local files and developer workflows.</em></p>
+      <p>CLI、ネイティブGUI、暗号ライブラリ、バージョン管理された <code>.lvau</code> 形式を含むRustワークスペースです。ストリーミング暗号化、改ざん検知、安全なファイル置換、署名、復旧共有などを扱います。</p>
       <p>
-        <a href="https://github.com/latteworkspace/lvau/stargazers"><img src="https://img.shields.io/github/stars/latteworkspace/lvau?style=flat-square&amp;label=stars" alt="Lvau stars"></a>
-        <a href="https://github.com/latteworkspace/lvau/commits"><img src="https://img.shields.io/github/last-commit/latteworkspace/lvau?style=flat-square&amp;label=updated" alt="Lvau last commit"></a>
-        <img src="https://img.shields.io/badge/Rust-161B22?style=flat-square&amp;logo=rust&amp;logoColor=white" alt="Rust">
+        <a href="https://github.com/latteworkspace/lvau/actions/workflows/ci.yml"><img src="https://github.com/latteworkspace/lvau/actions/workflows/ci.yml/badge.svg" alt="Lvau CI"></a>
+        <a href="https://github.com/latteworkspace/lvau/releases"><img src="https://img.shields.io/github/v/release/latteworkspace/lvau?display_name=tag&amp;sort=semver&amp;style=flat-square" alt="Lvau release"></a>
+        <a href="https://github.com/latteworkspace/lvau/blob/master/LICENSE"><img src="https://img.shields.io/github/license/latteworkspace/lvau?style=flat-square" alt="Lvau license"></a>
       </p>
-      <sub>Experimental — not formally security audited.</sub>
+      <sub>Experimental — not formally independently audited.</sub>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/lasder-ca/PatchArena">PatchArena</a></h3>
-      <p>AI coding agentを隔離されたGit worktreeで評価し、Patch・ログ・検証結果を保存する再現可能なベンチマーク基盤です。</p>
+      <h3>🤖 <a href="https://github.com/lasder-ca/PatchArena">PatchArena</a></h3>
+      <p><em>Reproducible benchmarks for AI coding agents on real repositories.</em></p>
+      <p>同じコミットとタスクから隔離Git worktreeを作り、agent実行、検証、Patch、ログ、監査記録を保存します。Codex CLI、Claude Code、Gemini CLIとカスタムadapterに対応しています。</p>
       <p>
-        <a href="https://github.com/lasder-ca/PatchArena/stargazers"><img src="https://img.shields.io/github/stars/lasder-ca/PatchArena?style=flat-square&amp;label=stars" alt="PatchArena stars"></a>
-        <a href="https://github.com/lasder-ca/PatchArena/commits"><img src="https://img.shields.io/github/last-commit/lasder-ca/PatchArena?style=flat-square&amp;label=updated" alt="PatchArena last commit"></a>
-        <img src="https://img.shields.io/badge/AI_Agents-161B22?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="AI agents">
+        <a href="https://github.com/lasder-ca/PatchArena/actions/workflows/ci.yml"><img src="https://github.com/lasder-ca/PatchArena/actions/workflows/ci.yml/badge.svg" alt="PatchArena CI"></a>
+        <a href="https://github.com/lasder-ca/PatchArena/releases"><img src="https://img.shields.io/github/v/release/lasder-ca/PatchArena?display_name=tag&amp;sort=semver&amp;style=flat-square" alt="PatchArena release"></a>
+        <a href="https://github.com/lasder-ca/PatchArena/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lasder-ca/PatchArena?style=flat-square" alt="PatchArena license"></a>
       </p>
+      <sub>Evidence collection and orchestration — not an operating-system sandbox.</sub>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
-      <h3><a href="https://github.com/lasder-ca/aegis-acbs">Aegis ACBS</a></h3>
-      <p>実地道路グラフ上で、適応的な双方向最短経路探索を検証する研究プロジェクト。再現可能なベンチマークと測定根拠を重視しています。</p>
+      <h3>🧭 <a href="https://github.com/lasder-ca/aegis-acbs">Aegis ACBS</a></h3>
+      <p><em>Exact bidirectional shortest-path search with a shared proof of optimality.</em></p>
+      <p>前向き・逆向き探索が下界と上界を共有し、適応的schedulerが処理量を割り当てる道路グラフ研究CLIです。OSM・DIMACSのimport、経路探索、benchmark、tail分析、JSON・CSV・HTMLレポートに対応しています。</p>
+      <p>公開済みの東京実験では、1つの記録済み条件下で <strong>10,000 / 10,000</strong> の最短経路距離がDijkstraと一致しました。</p>
       <p>
-        <a href="https://github.com/lasder-ca/aegis-acbs/stargazers"><img src="https://img.shields.io/github/stars/lasder-ca/aegis-acbs?style=flat-square&amp;label=stars" alt="Aegis ACBS stars"></a>
-        <a href="https://github.com/lasder-ca/aegis-acbs/commits"><img src="https://img.shields.io/github/last-commit/lasder-ca/aegis-acbs?style=flat-square&amp;label=updated" alt="Aegis ACBS last commit"></a>
-        <img src="https://img.shields.io/badge/Go-161B22?style=flat-square&amp;logo=go&amp;logoColor=00ADD8" alt="Go">
-        <img src="https://img.shields.io/badge/OpenStreetMap-161B22?style=flat-square&amp;logo=openstreetmap&amp;logoColor=7EBC6F" alt="OpenStreetMap">
+        <a href="https://github.com/lasder-ca/aegis-acbs/actions/workflows/ci.yml"><img src="https://github.com/lasder-ca/aegis-acbs/actions/workflows/ci.yml/badge.svg" alt="Aegis ACBS CI"></a>
+        <a href="https://github.com/lasder-ca/aegis-acbs/releases"><img src="https://img.shields.io/github/v/release/lasder-ca/aegis-acbs?display_name=tag&amp;sort=semver&amp;style=flat-square" alt="Aegis ACBS release"></a>
+        <a href="https://github.com/lasder-ca/aegis-acbs/blob/main/docs/TOKYO_EVIDENCE.md"><img src="https://img.shields.io/badge/evidence-Tokyo%20validation-7C3AED?style=flat-square" alt="Tokyo validation evidence"></a>
+        <a href="https://github.com/lasder-ca/aegis-acbs/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lasder-ca/aegis-acbs?style=flat-square" alt="Aegis ACBS license"></a>
       </p>
+      <sub>Research prototype — novelty and broad performance generalization require independent review.</sub>
     </td>
   </tr>
 </table>
@@ -71,9 +75,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github">
-    <img width="49%" alt="Repositories per language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=lasder-ca&amp;theme=github">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github_dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github">
+    <img width="49%" alt="Most used languages in commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github_dark">
@@ -90,17 +94,24 @@
   </picture>
 </p>
 
-## Tech stack
+## Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=14&amp;theme=dark" alt="Rust, Go, TypeScript, JavaScript, Python, Node.js, Git, GitHub Actions, Linux, Ubuntu, Bash, Docker, Cloudflare, and Vercel">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=7&amp;theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=7&amp;theme=light">
+    <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=7&amp;theme=dark" alt="Rust, Go, TypeScript, JavaScript, Python, Node.js, Git, GitHub Actions, Linux, Ubuntu, Bash, Docker, Cloudflare, and Vercel">
+  </picture>
 </p>
 
-## Engineering principles
+## How I build
 
-> Authorized scope only · minimize sensitive data · responsible disclosure · reproducible evidence over unsupported claims.
+- **Inspectable by default** — 実行結果、ログ、Patch、バージョン、失敗条件を可能な範囲で残し、後から確認できる状態にします。
+- **Reproducible before impressive** — 単発の成功例より、同じ入力で再実行できる手順と比較可能な結果を優先します。
+- **Explicit about boundaries** — 実験段階、未監査、未検証、環境依存の結果は、その制約を明記します。
+- **Responsible security research** — 許可された範囲で検証し、秘密情報を最小化し、適切な窓口から責任ある開示を行います。
 
-詳しい方針は **[Developer ethics and responsible research](./ETHICS.md)** にまとめています。
+詳しい方針は **[Developer ethics and responsible research](./ETHICS.md)** にまとめています。セキュリティ上の連絡は [contact@lattee.jp](mailto:contact@lattee.jp) へお願いします。
 
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1F6FEB,55:161B22,100:0D1117&amp;height=90&amp;section=footer" alt="Profile footer decoration">
