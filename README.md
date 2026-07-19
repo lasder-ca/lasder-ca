@@ -94,24 +94,46 @@
   </picture>
 </p>
 
-## Toolbox
+## Languages & tools
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=7&amp;theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=7&amp;theme=light">
-    <img src="https://skillicons.dev/icons?i=rust,go,ts,js,py,nodejs,git,githubactions,linux,ubuntu,bash,docker,cloudflare,vercel&amp;perline=7&amp;theme=dark" alt="Rust, Go, TypeScript, JavaScript, Python, Node.js, Git, GitHub Actions, Linux, Ubuntu, Bash, Docker, Cloudflare, and Vercel">
-  </picture>
+  <strong>Languages</strong><br><br>
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=111827" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python">
 </p>
 
-## How I build
+<p align="center">
+  <strong>Platform & delivery</strong><br><br>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&amp;logo=git&amp;logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=111827" alt="Linux">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&amp;logo=ubuntu&amp;logoColor=white" alt="Ubuntu">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&amp;logo=gnubash&amp;logoColor=white" alt="Bash">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&amp;logo=cloudflare&amp;logoColor=white" alt="Cloudflare">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&amp;logo=vercel&amp;logoColor=white" alt="Vercel">
+</p>
 
-- **Inspectable by default** — 実行結果、ログ、Patch、バージョン、失敗条件を可能な範囲で残し、後から確認できる状態にします。
-- **Reproducible before impressive** — 単発の成功例より、同じ入力で再実行できる手順と比較可能な結果を優先します。
-- **Explicit about boundaries** — 実験段階、未監査、未検証、環境依存の結果は、その制約を明記します。
-- **Responsible security research** — 許可された範囲で検証し、秘密情報を最小化し、適切な窓口から責任ある開示を行います。
+## Build approach
 
-詳しい方針は **[Developer ethics and responsible research](./ETHICS.md)** にまとめています。セキュリティ上の連絡は [contact@lattee.jp](mailto:contact@lattee.jp) へお願いします。
+<p align="center">
+  <img src="https://img.shields.io/badge/Inspectable-logs%20%7C%20patches%20%7C%20versions-1F6FEB?style=for-the-badge&amp;labelColor=161B22" alt="Inspectable outputs">
+  <img src="https://img.shields.io/badge/Reproducible-repeatable%20before%20impressive-2EA44F?style=for-the-badge&amp;labelColor=161B22" alt="Reproducible engineering">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Boundaries-experimental%20and%20unverified%20are%20labeled-8250DF?style=for-the-badge&amp;labelColor=161B22" alt="Explicit boundaries">
+  <a href="./ETHICS.md"><img src="https://img.shields.io/badge/Security-authorized%20scope%20%7C%20responsible%20disclosure-D29922?style=for-the-badge&amp;labelColor=161B22" alt="Responsible security research"></a>
+</p>
+
+<p align="center">
+  実行結果と失敗条件を残し、再現可能性を優先し、未監査・未検証の範囲を明記して開発します。<br>
+  <sub><a href="./ETHICS.md">Developer ethics and responsible research</a> · <a href="mailto:contact@lattee.jp">Security contact</a></sub>
+</p>
 
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1F6FEB,55:161B22,100:0D1117&amp;height=90&amp;section=footer" alt="Profile footer decoration">
