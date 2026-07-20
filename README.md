@@ -5,8 +5,8 @@
     <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&amp;weight=700&amp;size=42&amp;duration=1600&amp;pause=1200&amp;color=F0F6FC&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=760&amp;height=72&amp;lines=lasder-ca" alt="lasder-ca">
   </a>
 
-  <p><strong>Security tools · AI agents · Systems</strong></p>
-  <p>セキュリティ・AI・システム開発を学んでいる学生開発者です。</p>
+  <p><strong>Security tools · Web runtimes · Systems</strong></p>
+  <p>セキュリティ・Webランタイム・システム開発を学んでいる学生開発者です。</p>
 
   [![Website](https://img.shields.io/badge/lattee.jp-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://lattee.jp)
   [![X](https://img.shields.io/badge/@lattejp__-161B22?style=flat-square&logo=x&logoColor=F0F6FC)](https://x.com/lattejp_)
@@ -17,7 +17,7 @@
 
 ## About
 
-暗号化ツール、AI coding agentの評価基盤、最短経路探索アルゴリズムなどを開発しています。
+暗号化ツール、Web StandardsベースのTypeScriptフレームワーク、最短経路探索アルゴリズムなどを開発しています。
 
 ## Selected work
 
@@ -35,15 +35,15 @@
       <sub>Experimental — not formally independently audited.</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/lasder-ca/PatchArena">PatchArena</a></h3>
-      <p><em>Reproducible benchmarks for AI coding agents on real repositories.</em></p>
-      <p>同じコミットとタスクから隔離Git worktreeを作り、agent実行、検証、Patch、ログ、監査記録を保存します。Codex CLI、Claude Code、Gemini CLIとカスタムadapterに対応しています。</p>
+      <h3>⚡ <a href="https://github.com/lasder-ca/Nelo">Nelo</a></h3>
+      <p><em>A request-ownership runtime and Web Standards framework for TypeScript.</em></p>
+      <p>リクエストが生成した非同期タスク、キャンセル、スコープ付きリソースを明示的なlifetime境界で管理するTypeScriptフレームワークです。標準の <code>Request</code>・<code>Response</code> APIとruntime adapterの分離を中心に設計しています。</p>
       <p>
-        <a href="https://github.com/lasder-ca/PatchArena/actions/workflows/ci.yml"><img src="https://github.com/lasder-ca/PatchArena/actions/workflows/ci.yml/badge.svg" alt="PatchArena CI"></a>
-        <a href="https://github.com/lasder-ca/PatchArena/releases"><img src="https://img.shields.io/github/v/release/lasder-ca/PatchArena?display_name=tag&amp;sort=semver&amp;style=flat-square" alt="PatchArena release"></a>
-        <a href="https://github.com/lasder-ca/PatchArena/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lasder-ca/PatchArena?style=flat-square" alt="PatchArena license"></a>
+        <a href="https://github.com/lasder-ca/Nelo/actions/workflows/ci.yml"><img src="https://github.com/lasder-ca/Nelo/actions/workflows/ci.yml/badge.svg" alt="Nelo CI"></a>
+        <img src="https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square" alt="TypeScript strict">
+        <a href="https://github.com/lasder-ca/Nelo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lasder-ca/Nelo?style=flat-square" alt="Nelo license"></a>
       </p>
-      <sub>Evidence collection and orchestration — not an operating-system sandbox.</sub>
+      <sub>Experimental — not published to npm yet.</sub>
     </td>
   </tr>
   <tr>
