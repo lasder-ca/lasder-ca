@@ -1,103 +1,40 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:0D1117,55:161B22,100:1F6FEB&amp;height=125&amp;section=header" alt="Profile header decoration">
-
   <a href="https://github.com/lasder-ca">
-    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&amp;weight=700&amp;size=42&amp;duration=1600&amp;pause=1200&amp;color=F0F6FC&amp;center=true&amp;vCenter=true&amp;repeat=false&amp;width=760&amp;height=72&amp;lines=lasder-ca" alt="lasder-ca">
+    <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+JP&weight=700&size=42&duration=1600&pause=1200&color=F0F6FC&center=true&vCenter=true&repeat=false&width=760&height=72&lines=lasder-ca" alt="lasder-ca">
   </a>
 
   <p><strong>Security tools · Web runtimes · Systems</strong></p>
-  <p>セキュリティ・Webランタイム・システム開発を学んでいる学生開発者です。</p>
+  <p>Web開発、セキュリティ、システムプログラミングを学びながら、実際に使えるソフトウェアを作っている学生です。</p>
 
   [![Website](https://img.shields.io/badge/lattee.jp-161B22?style=flat-square&logo=googlechrome&logoColor=58A6FF)](https://lattee.jp)
   [![X](https://img.shields.io/badge/@lattejp__-161B22?style=flat-square&logo=x&logoColor=F0F6FC)](https://x.com/lattejp_)
   [![Email](https://img.shields.io/badge/contact@lattee.jp-161B22?style=flat-square&logo=gmail&logoColor=EA4335)](mailto:contact@lattee.jp)
-
-  [![技術者倫理 遵守済み](https://img.shields.io/badge/%E6%8A%80%E8%A1%93%E8%80%85%E5%80%AB%E7%90%86-%E9%81%B5%E5%AE%88%E6%B8%88%E3%81%BF-0a0a0a?style=for-the-badge&labelColor=ffffff)](https://xn--zwqt06btym6jly7j.com)
 </div>
 
 ## About
 
-暗号化ツール、Web StandardsベースのTypeScriptフレームワーク、最短経路探索アルゴリズムなどを開発しています。
+Rust、TypeScript、Goを中心に、ファイル暗号化、Webランタイム、経路探索、AIコーディングエージェントの評価基盤などを開発しています。
 
-## Selected work
+まず使える形まで作り、テストと実際の利用を通して問題を見つけ、必要な部分を直していく進め方を大切にしています。性能や安全性については、確認できた範囲と未検証の範囲を分けて公開します。
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔐 <a href="https://github.com/latteworkspace/lvau">Lvau</a></h3>
-      <p><em>Inspectable encrypted capsules for local files and developer workflows.</em></p>
-      <p>CLI、ネイティブGUI、暗号ライブラリ、バージョン管理された <code>.lvau</code> 形式を含むRustワークスペースです。ストリーミング暗号化、改ざん検知、安全なファイル置換、署名、復旧共有などを扱います。</p>
-      <p>
-        <a href="https://github.com/latteworkspace/lvau/actions/workflows/ci.yml"><img src="https://github.com/latteworkspace/lvau/actions/workflows/ci.yml/badge.svg" alt="Lvau CI"></a>
-        <a href="https://github.com/latteworkspace/lvau/releases"><img src="https://img.shields.io/github/v/release/latteworkspace/lvau?display_name=tag&amp;sort=semver&amp;style=flat-square" alt="Lvau release"></a>
-        <a href="https://github.com/latteworkspace/lvau/blob/master/LICENSE"><img src="https://img.shields.io/github/license/latteworkspace/lvau?style=flat-square" alt="Lvau license"></a>
-      </p>
-      <sub>Experimental — not formally independently audited.</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚡ <a href="https://github.com/lasder-ca/Nelo">Nelo</a></h3>
-      <p><em>A request-ownership runtime and Web Standards framework for TypeScript.</em></p>
-      <p>リクエストが生成した非同期タスク、キャンセル、スコープ付きリソースを明示的なlifetime境界で管理するTypeScriptフレームワークです。標準の <code>Request</code>・<code>Response</code> APIとruntime adapterの分離を中心に設計しています。</p>
-      <p>
-        <a href="https://github.com/lasder-ca/Nelo/actions/workflows/ci.yml"><img src="https://github.com/lasder-ca/Nelo/actions/workflows/ci.yml/badge.svg" alt="Nelo CI"></a>
-        <img src="https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square" alt="TypeScript strict">
-        <a href="https://github.com/lasder-ca/Nelo/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lasder-ca/Nelo?style=flat-square" alt="Nelo license"></a>
-      </p>
-      <sub>Experimental — not published to npm yet.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>🧭 <a href="https://github.com/lasder-ca/aegis-acbs">Aegis ACBS</a></h3>
-      <p><em>Exact bidirectional shortest-path search with a shared proof of optimality.</em></p>
-      <p>前向き・逆向き探索が下界と上界を共有し、適応的schedulerが処理量を割り当てる道路グラフ研究CLIです。OSM・DIMACSのimport、経路探索、benchmark、tail分析、JSON・CSV・HTMLレポートに対応しています。</p>
-      <p>公開済みの東京実験では、1つの記録済み条件下で <strong>10,000 / 10,000</strong> の最短経路距離がDijkstraと一致しました。</p>
-      <p>
-        <a href="https://github.com/lasder-ca/aegis-acbs/actions/workflows/ci.yml"><img src="https://github.com/lasder-ca/aegis-acbs/actions/workflows/ci.yml/badge.svg" alt="Aegis ACBS CI"></a>
-        <a href="https://github.com/lasder-ca/aegis-acbs/releases"><img src="https://img.shields.io/github/v/release/lasder-ca/aegis-acbs?display_name=tag&amp;sort=semver&amp;style=flat-square" alt="Aegis ACBS release"></a>
-        <a href="https://github.com/lasder-ca/aegis-acbs/blob/main/docs/TOKYO_EVIDENCE.md"><img src="https://img.shields.io/badge/evidence-Tokyo%20validation-7C3AED?style=flat-square" alt="Tokyo validation evidence"></a>
-        <a href="https://github.com/lasder-ca/aegis-acbs/blob/main/LICENSE"><img src="https://img.shields.io/github/license/lasder-ca/aegis-acbs?style=flat-square" alt="Aegis ACBS license"></a>
-      </p>
-      <sub>Research prototype — novelty and broad performance generalization require independent review.</sub>
-    </td>
-  </tr>
-</table>
+## Projects
 
-## GitHub activity
+### [Nelo](https://github.com/lasder-ca/Nelo)
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&amp;theme=github">
-    <img width="100%" alt="GitHub profile activity summary" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=lasder-ca&amp;theme=github">
-  </picture>
-</p>
+リクエストから始まった非同期タスク、キャンセル、リソース、レスポンス配信を、明示された寿命の中で管理するTypeScriptフレームワークです。標準の`Request`と`Response`を使いながら、ハンドラーの終了後に残る処理まで追跡します。
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github">
-    <img width="49%" alt="Most used languages in commits" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lasder-ca&amp;theme=github">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github_dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github">
-    <img width="49%" alt="GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lasder-ca&amp;theme=github">
-  </picture>
-</p>
+### [Lvau](https://github.com/lasder-ca/lvau)
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github-compact&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
-    <img width="100%" alt="Recent GitHub contribution activity" src="https://github-readme-activity-graph.vercel.app/graph?username=lasder-ca&amp;theme=github&amp;hide_border=true&amp;area=true&amp;days=60&amp;custom_title=Recent%20contribution%20activity">
-  </picture>
-</p>
+ローカルファイルを暗号化し、内容を復号せずに形式や公開情報を確認できるRust製ツールです。CLI、ネイティブGUI、署名、暗号化バンドル、復旧共有などを含みます。現在は実験段階であり、正式な第三者監査は完了していません。
 
-## Toolbox
+### [Aegis ACBS](https://github.com/lasder-ca/aegis-acbs)
 
-<p align="center"><img width="48" height="48" src="https://cdn.simpleicons.org/rust/FFFFFF" alt="Rust" title="Rust">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/go/00ADD8" alt="Go" title="Go">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" title="TypeScript">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript" title="JavaScript">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" title="Python">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/nodedotjs/5FA04E" alt="Node.js" title="Node.js">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/git/F05032" alt="Git" title="Git">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" title="GitHub Actions">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" title="Linux">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/ubuntu/E95420" alt="Ubuntu" title="Ubuntu">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash" title="Bash">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" title="Docker">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/cloudflare/F38020" alt="Cloudflare" title="Cloudflare">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/vercel/FFFFFF" alt="Vercel" title="Vercel"></p>
+始点側と終点側の探索が下界と上界を共有し、最短性を保ったまま処理量を調整する経路探索の研究実装です。OSMとDIMACSの取り込み、比較測定、遅いケースの分析、JSON・CSV・HTMLレポートに対応しています。
 
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:1F6FEB,55:161B22,100:0D1117&amp;height=90&amp;section=footer" alt="Profile footer decoration">
-</div>
+### [PatchArena](https://github.com/lasder-ca/PatchArena)
+
+実際のGitリポジトリ上でAIコーディングエージェントを繰り返し実行し、成功率、実行時間、差分、検証結果を比較できるベンチマークランナーです。実行記録を機械可読な形式で保存しますが、サンドボックスとしては設計されていません。
+
+## Tools
+
+<p align="center"><img width="48" height="48" src="https://cdn.simpleicons.org/rust/FFFFFF" alt="Rust" title="Rust">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/typescript/3178C6" alt="TypeScript" title="TypeScript">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/go/00ADD8" alt="Go" title="Go">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/python/3776AB" alt="Python" title="Python">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/git/F05032" alt="Git" title="Git">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" title="GitHub Actions">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/linux/FCC624" alt="Linux" title="Linux">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/cloudflare/F38020" alt="Cloudflare" title="Cloudflare">&nbsp;<img width="48" height="48" src="https://cdn.simpleicons.org/vercel/FFFFFF" alt="Vercel" title="Vercel"></p>
