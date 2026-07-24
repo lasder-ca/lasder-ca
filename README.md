@@ -1,12 +1,18 @@
 <div align="center">
-  
- ### Web開発、セキュリティ、プログラミングなどを学んでいる学生です。 ###
+
+### Web開発、セキュリティ、プログラミングを学んでいる学生です。
 
 ---
 
-<a href="https://lattee.jp"><img alt="Website" src="https://shieldcn.dev/badge/Website.svg?size=default&font=geist(https://lattee.jp)"></a>
-<a href="https://x.com/lattejp_"><img alt="X" src="https://shieldcn.dev/x/follow/lattejp_.svg?size=default&font=geist(https://x.com/lattejp_)"></a>
-<a href="mailto:contact@lattee.jp"><img alt="Email" src="https://shieldcn.dev/badge/Email-contact@lattee.jp.svg?size=default&font=geist"></a>
+<a href="https://lattee.jp">
+  <img alt="Website" src="https://shieldcn.dev/badge/Website-lattee.jp-grey.svg?variant=outline&font=geist">
+</a>
+<a href="https://x.com/lattejp_">
+  <img alt="X" src="https://shieldcn.dev/x/follow/lattejp_.svg?variant=outline&font=geist">
+</a>
+<a href="mailto:contact@lattee.jp">
+  <img alt="Email" src="https://shieldcn.dev/badge/Email-contact%40lattee.jp-grey.svg?variant=outline&font=geist">
+</a>
 
 </div>
 
